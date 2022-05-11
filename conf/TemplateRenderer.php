@@ -1,7 +1,7 @@
 <?php
 require_once 'resources/orm/idiorm.php';
 require_once 'resources/orm/paris.php';
-
+require_once 'vendor/autoload.php';
 
 ORM::configure('mysql:host=localhost;dbname=uni');
 ORM::configure('username', 'root');
